@@ -1,0 +1,37 @@
+# Bitbucket user (stffndtz)
+Host bitbucket
+HostName bitbucket.org
+User stffndtz
+IdentityFile /Users/stffndtz/.ssh/id_rsa_taiko
+
+# github user (stffndtz)
+Host github
+HostName github.com
+User stffndtz
+IdentityFile /Users/stffndtz/.ssh/id_rsa
+
+# Taikolab user (stffndtz)
+Host taikolab
+HostName taikolab.de
+User taikolab
+Port 32
+IdentityFile /Users/stffndtz/.ssh/id_rsa_taiko
+
+# Taikocloud user (stffndtz)
+Host taikocloud
+HostName 37.61.200.201
+User taiko
+Port 32
+IdentityFile /Users/stffndtz/.ssh/id_rsa_taiko
+
+# Synology taiko (sd)
+Host 192.168.0.82
+HostName 192.168.0.82
+User sd
+IdentityFile /Users/stffndtz/.ssh/id_rsa_taiko
+
+#biskitty hosteurope
+Host biskitty
+HostName vwp15292.webpack.hosteurope.de
+User wp12317846
+IdentityFile /Users/stffndtz/.ssh/id_rsa_taiko

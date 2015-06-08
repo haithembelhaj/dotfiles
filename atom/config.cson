@@ -1,0 +1,52 @@
+"*":
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 12
+    lineHeight: 1.2
+    showIndentGuide: true
+    invisibles:
+      {}
+  core:
+    followSymlinks: true
+    disabledPackages: [
+      "background-tips"
+      "autocomplete-paths"
+    ]
+    themes: [
+      "neutron-ui"
+      "neutron-syntax"
+    ]
+    projectHome: "/Users/stfo/Sites"
+    audioBeep: false
+    excludeVcsIgnoredPaths: true
+  "exception-reporting":
+    userId: "6288eeb7-12e9-1205-06a4-40e24131e720"
+  "release-notes":
+    viewedVersion: "0.101.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "2d9844fc3cff770942414adbb17cc37b09a7cb8b"
+  jshint:
+    validateOnlyOnSave: true
+  "autoclose-html":
+    closeOnEndOfOpeningTag: true
+  linter:
+    showHighlighting: false
+    showErrorInline: true
+    statusBar: "Show error if the cursor is in range"
+  "atom-beautify":
+    _analyticsUserId: "a908e9f8-b7ee-4295-b249-b39d50c80b6d"
+  "atom-ternjs":
+    documentation: false
+  "fuzzy-finder":
+    {}
+  "find-and-replace":
+    focusEditorAfterSearch: true
+    openProjectFindResultsInRightPane: true
+  "bug-report":
+    {}
+  "autocomplete-plus":
+    {}
+  "tree-view":
+    hideVcsIgnoredFiles: false
