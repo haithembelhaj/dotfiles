@@ -1,5 +1,10 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+	user = Steffen Dietz
+	email = sd@dietaikonauten.com
 [user]
 	name = Steffen Dietz
 	email = sd@dietaikonauten.com
 [push]
-	default = current
+	default = simple

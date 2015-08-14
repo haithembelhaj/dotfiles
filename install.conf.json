@@ -6,6 +6,7 @@
       "link": {
           "~/.bash_profile": ".bash_profile",
           "~/.profile": ".profile",
+          "~/.gitconfig": ".gitconfig",
           "~/.my.cnf": ".my.cnf",
           "~/.slate.js": ".slate.js",
           "~/.zshrc": ".zshrc",
