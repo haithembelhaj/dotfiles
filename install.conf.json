@@ -1,18 +1,16 @@
 [
-    {
-        "clean": ["~"]
-    },
-    {
-        "link": {
-            "~/.dotfiles": "",
-            "~/.tmux.conf": "tmux.conf",
-            "~/.vim": "vim/",
-            "~/.vimrc": "vimrc"
-        }
-    },
-    {
-        "shell": [
-            ["git submodule update --init --recursive", "Installing submodules"]
-        ]
-    }
-  ]
+  {
+    "clean": ["~"]
+  },
+  {
+      "link": {
+          "~/.bash_profile": ".bash_profile",
+          "~/.profile": ".profile",
+          "~/.my.cnf": ".my.cnf",
+          "~/.slate.js": ".slate.js",
+          "~/.zshrc": ".zshrc",
+          "~/.atom/config.cson": "atom/config.cson",
+          "~/.atom/styles.less": "atom/styles.less"
+      }
+  }
+]

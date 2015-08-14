@@ -1,2 +1,24 @@
+# OS files
 .DS_Store
-ssh/
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.git
+
+#temporary files
+tmp
+
+#phpStorm
+.idea/
+
+# Modules
+node_modules/
+bower_components/
+.sass-cache/
+
+# CUSTOM
+
+/ssh
