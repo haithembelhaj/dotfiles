@@ -1,4 +1,4 @@
-# OS files
+# OSX system files
 .DS_Store
 .DS_Store?
 ._*
@@ -6,18 +6,49 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Git
 *.git
 
-#temporary files
-tmp
+# Wordpress
+sitemap.xml
+sitemap.xml.gz
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
 
-#phpStorm
+/readme.html
+/license.txt
+
+# Logs
+*.log
+
+# Temporary
+tmp
+.grunt
+
+# PHPStorm
 .idea/
 
-# Modules
+# NPM & BOWER
 node_modules/
 bower_components/
+
+# SASS
 .sass-cache/
+*.css.map
+
+# Composer
+
+composer.phar
+vendor/
 
 # CUSTOM
 
