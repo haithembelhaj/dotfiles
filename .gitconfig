@@ -1,25 +1,31 @@
-# This is Git's per-user configuration file.
+# SD gitconfig 15.08.2015
 [core]
-# Please adapt and uncomment the following lines:
 	user = Steffen Dietz
 	email = sd@dietaikonauten.com
+	filemode = false
+	editor = vim
+
 [user]
 	name = Steffen Dietz
 	email = sd@dietaikonauten.com
+
 [push]
 	default = simple
 
 [color]
-    ui = true
+	ui = true
+
+[commit]
+	template = ~/.gittemplate.txt
 
 [url "https://github.com/"]
-    insteadOf = gh:
+	insteadOf = gh:
 
 [url "https://gist.github.com/"]
-    insteadOf = gist:
+	insteadOf = gist:
 
 [url "git@bitbucket.org"]
-    insteadOf = bb:
+	insteadOf = bb:
 
 [url "ssh://git@gitlab.taikocloud.com:32"]
-    insteadOf = taiko:
+	insteadOf = taiko:
