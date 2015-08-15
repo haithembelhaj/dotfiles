@@ -4,21 +4,18 @@
     fontSize: 12
     lineHeight: 1.2
     showIndentGuide: true
-    invisibles:
-      {}
+    invisibles: {}
   core:
     followSymlinks: true
     disabledPackages: [
       "background-tips"
-      "autocomplete-paths"
     ]
     themes: [
-      "neutron-ui"
-      "neutron-syntax"
+      "atom-material-ui"
+      "atom-dark-syntax"
     ]
-    projectHome: "/Users/stfo/Sites"
+    projectHome: "~/Sites"
     audioBeep: false
-    excludeVcsIgnoredPaths: true
   "exception-reporting":
     userId: "6288eeb7-12e9-1205-06a4-40e24131e720"
   "release-notes":
@@ -32,21 +29,27 @@
   "autoclose-html":
     closeOnEndOfOpeningTag: true
   linter:
-    showHighlighting: false
+    showHighlighting: true
     showErrorInline: true
     statusBar: "Show error if the cursor is in range"
   "atom-beautify":
     _analyticsUserId: "a908e9f8-b7ee-4295-b249-b39d50c80b6d"
   "atom-ternjs":
     documentation: false
-  "fuzzy-finder":
-    {}
+  "fuzzy-finder": {}
   "find-and-replace":
     focusEditorAfterSearch: true
     openProjectFindResultsInRightPane: true
-  "bug-report":
-    {}
-  "autocomplete-plus":
-    {}
+  "bug-report": {}
+  "autocomplete-plus": {}
   "tree-view":
     hideVcsIgnoredFiles: false
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    slimScrollbar: true
+    tabSize: "Small"
+    themeSyle: "Darker"
+  "webbox-color":
+    fillColorAsBackground: false
+  "merge-conflicts": {}

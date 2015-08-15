@@ -8,3 +8,18 @@
 	email = sd@dietaikonauten.com
 [push]
 	default = simple
+
+[color]
+    ui = true
+
+[url "https://github.com/"]
+    insteadOf = gh:
+
+[url "https://gist.github.com/"]
+    insteadOf = gist:
+
+[url "git@bitbucket.org"]
+    insteadOf = bb:
+
+[url "ssh://git@gitlab.taikocloud.com:32"]
+    insteadOf = taiko:

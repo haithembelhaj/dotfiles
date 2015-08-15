@@ -58,6 +58,18 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+# custom brew cask folders
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/Caskroom"
+
+# load rbenv on startup
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# ?
+REACT_EDITOR=atom
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -75,9 +87,3 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/Caskroom"
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="/usr/local/bin:$PATH"
-REACT_EDITOR=atom
-export PATH="/usr/local/sbin:$PATH"

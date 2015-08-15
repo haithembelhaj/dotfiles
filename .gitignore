@@ -53,3 +53,4 @@ vendor/
 # CUSTOM
 
 /ssh
+/apacheconfig
