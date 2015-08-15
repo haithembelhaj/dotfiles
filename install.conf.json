@@ -3,17 +3,21 @@
     "clean": ["~"]
   },
   {
-      "link": {
-          "~/.bash_profile": ".bash_profile",
-          "~/.profile": ".profile",
-          "~/.gitconfig": ".gitconfig",
-          "~/.gittemplate.txt": ".gittemplate",
-          "~/.gitattributes": ".gitattributes",
-          "~/.my.cnf": ".my.cnf",
-          "~/.slate.js": ".slate.js",
-          "~/.zshrc": ".zshrc",
-          "~/.atom/config.cson": "atom/config.cson",
-          "~/.atom/styles.less": "atom/styles.less"
-      }
+    "link": {
+        "~/.bash_profile": ".bash_profile",
+        "~/.profile": ".profile",
+        "~/.gitconfig": ".gitconfig",
+        "~/.gittemplate.txt": ".gittemplate",
+        "~/.gitattributes": ".gitattributes",
+        "~/.my.cnf": ".my.cnf",
+        "~/.slate.js": ".slate.js",
+        "~/.zshrc": ".zshrc",
+        "~/.atom/config.cson": "atom/config.cson",
+        "~/.atom/styles.less": "atom/styles.less"
+    }
+  },
+  {
+    "_unused" : {
+    }
   }
 ]
