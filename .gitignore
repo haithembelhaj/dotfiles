@@ -53,3 +53,5 @@ vendor/
 # CUSTOM
 
 /apacheconfig
+
+/ssh/* filter=crypt diff=crypt
